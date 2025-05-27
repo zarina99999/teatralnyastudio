@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  color: #0026a3;
+}
+
+h1 {
+  width: 300px;
+  margin: 0 auto 8px;
+  font-family: "Georgia", serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  color: #f7f4f4;
+}
+
+h2 {
+  border-bottom: 10px solid #e9bea0;
+  padding-bottom: 12px;
+  margin: 80px;
+  border: 3px dashed #000000;
+  background-color: #e2e2e2;
+}
+
+.container {
+  width: 510px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.site-header {
+  min-width: 550px;
+  height: 200px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  background: #847462 no-repeat center url("img/IMG_1683.jpeg");
+  background-size: cover;
+  color: #ffffff;
+}
+
+.site-header p {
+  width: 360px;
+  margin: 0 auto 26px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f7f5f5;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  width: 510px;
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
+
+.feature-furniture {
+  padding-top: 100px;
+  background-size: 50%;
+  background-image: url("img/Tilda_Icons_32_profession_lawyer.svg");
+}
+
+.feature-lighting {
+  padding-top: 100px;
+  background-size: 50%;
+  background-image: url("img/Tilda_Icons_32_profession_lawyer.svg");
+}
+
+.feature-accessories {
+  padding-top: 100px;
+  background-size: 50%;
+  background-image: url("img/Tilda_Icons_32_profession_lawyer.svg");
+}
+
+.advantages {
+  width: 510px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+
+.advantages-list {
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 20px solid #d9a284;
+  color: #000000;
+}
+
+.standard {
+  border-color:#d9a284;
+  color: #000000;
+}
+
+.vip {
+  border-color: #d9a284;
+  color: #000000;
+}
+
+.site-footer {
+  min-width: 550px;
+  background-color: hsl(29, 59%, 69%);
+  color: #000000;
+}
+
+.site-footer .container {
+  text-align: center;
+}
+
+.site-footer p {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
